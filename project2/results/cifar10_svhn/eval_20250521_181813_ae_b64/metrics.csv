@@ -1,0 +1,22 @@
+Metric,Value
+ID_Dataset,CIFAR-10
+OOD_Dataset,SVHN
+AE_Bottleneck,64
+CIFAR-10 Val Acc,0.8777
+AUROC Recon Error,0.1249
+AUPR-Out Recon Error,0.5481
+AUPR-In Recon Error,0.1644
+FPR@95TPR Recon Error,0.9999
+DetectionErr Recon Error,0.4994
+AUROC Softmax Score,0.7788
+AUPR-Out Softmax Score,0.8702
+AUPR-In Softmax Score,0.6216
+FPR@95TPR Softmax Score,0.6413
+DetectionErr Softmax Score,0.2672
+AUROC Mahalanobis,0.8260
+AUPR-Out Mahalanobis,0.8831
+AUPR-In Mahalanobis,0.7614
+FPR@95TPR Mahalanobis,0.4438
+DetectionErr Mahalanobis,0.2280
+Classifier_Train_Dir,./results/cifar10_svhn/resnet18_e130_lr0.1_bs1024_20250521_180908
+Autoencoder_Train_Dir,./results/cifar10_svhn/autoencoder_e100_lr0.001_bs1024_b64_20250521_181329

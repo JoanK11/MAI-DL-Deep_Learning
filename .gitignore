@@ -1,0 +1,5 @@
+data
+venv
+project1/results
+**/__pycache__/**
+**/.vscode/**

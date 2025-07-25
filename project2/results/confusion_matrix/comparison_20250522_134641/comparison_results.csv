@@ -1,0 +1,4 @@
+Model,Accuracy
+Pretrained_ResNet18,0.0951
+Finetuned_ResNet18,0.8739
+Improvement,0.7788

@@ -1,0 +1,22 @@
+Metric,Value
+ID_Dataset,CIFAR-10
+OOD_Dataset,TINYIMAGENET
+AE_Bottleneck,64
+CIFAR-10 Val Acc,0.8797
+AUROC Recon Error,0.6255
+AUPR-Out Recon Error,0.6317
+AUPR-In Recon Error,0.5936
+FPR@95TPR Recon Error,0.9102
+DetectionErr Recon Error,0.4061
+AUROC Softmax Score,0.8058
+AUPR-Out Softmax Score,0.7642
+AUPR-In Softmax Score,0.8145
+FPR@95TPR Softmax Score,0.5782
+DetectionErr Softmax Score,0.2512
+AUROC Mahalanobis,0.6829
+AUPR-Out Mahalanobis,0.6268
+AUPR-In Mahalanobis,0.7156
+FPR@95TPR Mahalanobis,0.7262
+DetectionErr Mahalanobis,0.3558
+Classifier_Train_Dir,./results/cifar10_tinyimagenet/resnet18_e130_lr0.1_bs1024_20250521_175510
+Autoencoder_Train_Dir,./results/cifar10_tinyimagenet/autoencoder_e100_lr0.001_bs1024_b64_20250521_175933
